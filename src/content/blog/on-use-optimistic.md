@@ -2,7 +2,7 @@
 title: On useOptimistic
 author: Adrian Zinko
 pubDatetime: 2024-03-01T07:42:51Z
-slug: on-use-optimistic
+slug: on-use-optimistic-in-react
 featured: true
 draft: false
 tags:

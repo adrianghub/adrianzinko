@@ -14,8 +14,10 @@ const posts = await getCollection("blog");
 
 const sortedPosts = getSortedPosts(posts);
 
-const featuredPosts = sortedPosts.filter(({ data }) => data.featured).slice(0, 3);
-const recentPosts = sortedPosts.filter(({ data }) => data.modDatetime ?? data.pubDatetime).slice(0, 4);
+const featuredPosts = sortedPosts
+  .filter(({ data }) => data.featured)
+  .slice(0, 3);
+// const recentPosts = sortedPosts.filter(({ data }) => data.modDatetime ?? data.pubDatetime).slice(0, 4);
 
 const socialCount = SOCIALS.filter(social => social.active).length;
 ---
@@ -41,12 +43,16 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         </svg>
         <span class="sr-only">RSS Feed</span>
       </a>
-      
+
       <p>
-        I'm Software Developer from Poland working @ <a class="underline decoration-dashed underline-offset-4 hover:text-skin-accent" href="https://www.accenture.com/">Accenture</a>
+        I'm Software Developer from Poland working @ <a
+          class="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
+          href="https://www.accenture.com/">Accenture</a
+        >
         <br />
         <br />
-        This website is under construction and soon will be a place for my thoughts, projects and other stuff.
+        This website soon will be a place for my thoughts, insights from projects
+        and other stuff.
       </p>
       {
         // only display if at least one social link is enabled
@@ -76,12 +82,11 @@ const socialCount = SOCIALS.filter(social => social.active).length;
               ))}
             </ul>
           </section>
-          {recentPosts.length > 0 && <Hr />}
         </>
       )
     }
 
-    {
+    <!-- {
       recentPosts.length > 0 && (
         <section id="recent-posts">
           <h2>Recent Posts</h2>
@@ -97,7 +102,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
           </ul>
         </section>
       )
-    }
+    } -->
 
     <div class="all-posts-btn-wrapper">
       <LinkButton href="/posts/">
