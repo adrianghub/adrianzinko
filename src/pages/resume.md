@@ -1,9 +1,20 @@
 ---
 layout: ../layouts/ResumeLayout.astro
 title: "Professional Experience"
---- 
+---
 
-Full list is available on my [LinkedIn](https://www.linkedin.com/in/adrian-zinko)
+Full list is available on my [LinkedIn](https://www.linkedin.com/in/adrian-zinko).
+
+Check out my <a href="https://azinko.s3.eu-central-1.amazonaws.com/CV_ADRIAN_ZINKO.pdf" target="_blank">**Resume**</a> in PDF format.
+
+## Accenture
+
+- **Position:** Senior Software Developer
+- **Period:** January 2022 - January 2024
+- **Employment Type:** Full-time - Self-employed
+- **Website:** [https://www.accenture.com](https://www.accenture.com)
+- **Summary:** In progress
+- **Skills:** Angular, RxJS, Next, React, AWS, DevOps
 
 ## Boldare
 
@@ -40,4 +51,3 @@ Full list is available on my [LinkedIn](https://www.linkedin.com/in/adrian-zinko
 - **Website:** [https://www.ardentcode.com](https://www.ardentcode.com)
 - **Summary:** Improved test coverage for React components/utils/services. Created an MVP app (PWA) for mobile devices, designed for Botanics, including real-time navigation for special maps and integration of measurements from Garmin devices.
 - **Skills:** React.js, TypeScript, Node.js, Redux, Jest, IndexedDB, PWA
-

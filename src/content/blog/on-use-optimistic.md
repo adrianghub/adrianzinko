@@ -7,9 +7,8 @@ featured: true
 draft: false
 tags:
   - JavaScript
-  - ReactJS
-description:
-  "The Magic of useOptimistic hook in React"
+  - React
+description: "The Magic of useOptimistic hook in React"
 ---
 
 > In today's fast-paced digital world, the responsiveness of applications plays a crucial role in user experience. React developers constantly seek ways to make apps feel quicker and more responsive. One innovative approach to achieving this is through optimistic UI updates, a concept that the useOptimistic hook in React brings to the forefront..
@@ -30,12 +29,12 @@ Imagine a chat application where users expect immediate feedback upon sending a 
 ```js
 function ChatMessageSender({ messages, sendMessage }) {
   const [optimisticMessages, addOptimistic] = useOptimistic(messages, (currentMessages, newMessage) => [...currentMessages, { ...newMessage, sending: true }]);
-  
+
   const handleSubmit = async (message) => {
     addOptimistic(message);
     await sendMessage(message);
   };
-  
+
   return (
     // JSX for message input and send button
   );
