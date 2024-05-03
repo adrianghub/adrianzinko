@@ -1,8 +1,8 @@
 ---
-title: On Re-renders in React
+title: On re-renders in React
 author: Adrian Zinko
 pubDatetime: 2024-03-01T07:42:51Z
-modDatetime: 2024-04-04T07:22:47Z
+modDatetime: 2024-05-03T17:35:23Z
 slug: on-re-renders-in-react
 featured: true
 draft: false
