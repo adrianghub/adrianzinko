@@ -1,8 +1,8 @@
 ---
 title: On what the heck is Domain Driven Design all about
 author: Adrian Zinko
-pubDatetime: 2024-05-04T17:35:23Z
-modDatetime: 2024-05-04T06:14:41Z
+pubDatetime: 2024-05-03T17:35:23Z
+modDatetime: 2024-05-04T06:15:02Z
 slug: on-ddd
 featured: true
 draft: false
