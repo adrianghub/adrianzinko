@@ -2,7 +2,7 @@
 title: On code quality in frontend development (Part 3)
 author: Adrian Zinko
 pubDatetime: 2024-05-02T06:11:07Z
-modDatetime: 2024-05-04T06:13:59Z
+modDatetime: 2024-05-04T06:18:11Z
 slug: on-quality-in-frontend-development-3
 featured: true
 draft: false
@@ -171,6 +171,7 @@ const sum = numbers
   .map(n => n * 2) // Multiply by 2
   .filter(n => n <= 10) // Filtering
   .reduce((acc, n) => acc + n, 0); // Summing
+```
 
 This approach mirrors the Unix philosophy by reducing complexity and focusing on modular, reusable components that enhance maintainability and reduce error rates. Such techniques not only simplify the development process but also enhance the testability and robustness of the software.
 
@@ -182,4 +183,7 @@ This approach mirrors the Unix philosophy by reducing complexity and focusing on
 [Understanding the Philosophy of Software Design](https://lubimyczytac.pl/ksiazka/4902573/a-philosophy-of-software-design)
 [The Pragmatic Programmer - Andy Hunt and Dave Thomas](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
 [Component structure vs complexity](https://epicreact.dev/one-react-mistake-thats-slowing-you-down/)
+
+```
+
 ```
