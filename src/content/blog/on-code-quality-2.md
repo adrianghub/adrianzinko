@@ -1,8 +1,8 @@
 ---
 title: On code quality in frontend development (Part 2)
 author: Adrian Zinko
-pubDatetime: 2024-05-04T06:11:07Z
-modDatetime:
+pubDatetime: 2024-05-01T06:11:07Z
+modDatetime: 2024-05-04T06:19:33Z
 slug: on-quality-in-frontend-development-2
 featured: true
 draft: false
