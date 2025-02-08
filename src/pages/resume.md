@@ -5,7 +5,7 @@ title: "Professional Experience"
 
 Full list is available on my [LinkedIn](https://www.linkedin.com/in/adrian-zinko).
 
-Check out my <a href="https://azinko.s3.eu-central-1.amazonaws.com/CV_ADRIAN_ZINKO.pdf" target="_blank">**Resume**</a> in PDF format.
+Check out my <a href="https://career-az.s3.eu-north-1.amazonaws.com/CV_ADRIAN_ZINKO.pdf" target="_blank">**Resume**</a> in PDF format.
 
 ## Accenture
 
@@ -14,7 +14,7 @@ Check out my <a href="https://azinko.s3.eu-central-1.amazonaws.com/CV_ADRIAN_ZIN
 - **Employment Type:** Full-time - Self-employed
 - **Website:** [https://www.accenture.com](https://www.accenture.com)
 - **Summary:** In progress
-- **Skills:** Angular, RxJS, Next, React, AWS, DevOps
+- **Skills:** Angular, RxJS, Next, React, AWS, Azure, DevOps
 
 ## Boldare
 
