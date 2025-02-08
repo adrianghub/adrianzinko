@@ -44,7 +44,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Mail",
-    href: "mailto:zinko.adrian00@gmail.com",
+    href: "mailto:az@adrianzinko.com",
     linkTitle: `Send an email to ${SITE.title}`,
     active: true,
   },
@@ -53,24 +53,6 @@ export const SOCIALS: SocialObjects = [
     href: "https://twitter.com/AdrianZinko",
     linkTitle: `${SITE.title} on Twitter`,
     active: true,
-  },
-  {
-    name: "YouTube",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on YouTube`,
-    active: false,
-  },
-  {
-    name: "CodePen",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on CodePen`,
-    active: false,
-  },
-  {
-    name: "Discord",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Discord`,
-    active: false,
   },
   {
     name: "Facebook",
